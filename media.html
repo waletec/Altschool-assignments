@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Me – Media Page</title>
+</head>
+<body>
+  <h1>Hammed Olawale E – My Story Through Media</h1>
+
+  <h2>Responsive Image</h2>
+  <picture>
+    <source media="(min-width: 1024px)" srcset="images/laptop.jpg">
+    <source media="(min-width: 768px)" srcset="images/tablet.jpg">
+    <source media="(max-width: 767px)" srcset="images/mobile.jpg">
+    <img src="images/default.jpg" alt="Hammed Olawale on different devices">
+  </picture>
+
+  <h2>My Voice Message</h2>
+  <audio controls>
+    <source src="media/voice-message.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h2>My Journey Video</h2>
+  <video controls width="400">
+    <source src="media/my-journey.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <h2>Where I Learn</h2>
+  <iframe width="400" height="250" src="https://www.youtube.com/embed/3DqHRw9jx20" title="AltSchool Africa Video" allowfullscreen></iframe>
+
+  <p><a href="index.html">Back to Index</a></p>
+</body>
+</html>
